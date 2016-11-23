@@ -1,0 +1,44 @@
+html, body{height:100%;}
+.bgimage{
+  background-image: url(../img/3041173-poster-p-1-lyft-replacing-its-iconic-mustache-with-a-smaller.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btn-large{
+  position:relative;
+  display: inline-block;
+  left: 55%;
+  margin-top:50%;
+  background-color:#F400B1;;
+}
+.logo{
+  position: absolute;
+  left: 50%;
+  margin-top:10%;
+  width: 30%;
+}
+
+
+
+#chile{
+  background-image: url(../img/cl.png);
+  height: 10px;
+  width: 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  height: 10%;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #F400B1;
+  
+
+}
+
+
+
+
+
+
+
