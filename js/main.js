@@ -1,4 +1,4 @@
-$('#input_text').val('New Text');
+$('#input_text').val('');
 $('#input_text').trigger('autoresize');
 
 $(document).ready(function() {

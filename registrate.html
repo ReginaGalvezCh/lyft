@@ -8,15 +8,16 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-<header>
-	<a href="index.html"><i class="material-icons">keyboard_arrow_left</i></a>
-</header>
+	<header>
+		<a href="index.html"><i class="large material-icons">keyboard_arrow_left</i></a>
+	</header>
 	<div class="container"> 
 
 		<div class="row">
 			<form class="col s12">
 				<div class="row">
 					<div class="input-field col s12">
+						<i class="material-icons prefix">mail</i>
 						<input id="input_text" type="email" class="validate" length="50">
 						<label for="input_text" data-error="wrong" data-success="right">Email</label>
 					</div>
@@ -25,21 +26,24 @@
 		</div>
 		<div class="row">
 			<form class="col s12">
-				<div class="row">
-				<div class="input-field col s12">
-						<i class="material-icons prefix">account_circle</i>
-						<input id="icon_prefix" type="text" class="validate">
-						<label for="icon_prefix">First Name</label>
-						<i class="material-icons prefix">phone</i>
-						<input id="icon_telephone" type="tel" class="validate">
-						<label for="icon_telephone">Telephone</label>
+				<form class="col s12">
+					<div class="row">
+						<div class="input-field col s6">
+							<i class="material-icons prefix">account_circle</i>
+							<input id="input_text" type="text" class="validate" length="30">
+							<label for="first_name">First Name</label>
+						</div>
+						<div class="input-field col s6">
+							<input id="input_text" type="text" class="validate" length="30">
+							<label for="last_name">Last Name</label>
+						</div>
 					</div>
 				</div>
 			</form>
-		</div>
+		</form>	
 	</div>
+</div>		
 
-</div>
 <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 <script type="text/javascript"  src="js/materialize.js" ></script>
 <script type="text/javascript" src="js/main.js"></script>	
