@@ -4,16 +4,45 @@
 	<meta charset="UTF-8">
 	<title>Registrate</title>
 	<link rel="stylesheet" type="text/css" href="css/materialize.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-	<div class="container"> 
-		<form class="col s12">
-			<label for="fname">Ingresa tu numero</label>
-			<div class="mover">
-			<input type="text" id="chile" name="fname" value="+56">
+	<header>
+		<div class="container"> 
+			<div class="row">
+				<div class="col s12">
+					<i class="large material-icons flecha"><a href="index.html" class="prev">keyboard_arrow_left</a></i>
+					<h3 class="center-align reg">Registrate</h3>
+					<p class="center-align text">Gana tu primer viaje gratis</p>
+					
+					
+				</div>
 			</div>
-		</form>
+		</div>
+	</header>
+	<div class="container"> 
+		<div class="row">
+			<form class="col s12">
+				<label for="fname">Ingresa tu numero</label>
+				<input type="tel" id="chile" name="fname" value="           +56">
+			</form>
+		</div>
+		<div class="row">
+			<div class="col s12">
+				<button class="btn btn-large waves-effect waves-light next" type="submit" name="action">Next
+					<a href="registrate.html"><i class="material-icons right">send</i></a>
+				</button>
+
+				
+			</div>
+		</div>
+		<form action="#">
+			<p class="center-align">
+				<input type="checkbox" id="test5" />
+				<label for="test5">Estoy de acuerdo con los <a href="https://www.lyft.com/terms">terminos y condiciones</a></label>
+			</p>
+		</form>	
 	</div>
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="js/materialize.js"></script>
