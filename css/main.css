@@ -32,13 +32,26 @@ html, body{height:100%;}
   margin: 8px 0;
   box-sizing: border-box;
   border: 3px solid #F400B1;
-  
-
+}
+.flecha{
+ position: absolute;
+}
+.prev{
+  position: inherit;
 }
 
-
-
-
-
-
-
+h3,p{
+  color: #F400B1;
+}
+.reg
+{
+  position:relative;
+  margin-right: 10%;
+}
+.text{
+  position:relative;
+  margin-right: 10%;
+}
+.input-field label {
+     color: #F400B1;
+   }
