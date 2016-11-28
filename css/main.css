@@ -37,6 +37,9 @@ margin-top: 5%;
 .prev{
   position: inherit;
 }
+#codigo{
+   color: #F400B1
+}
 
 h3,p{
   color: #F400B1;
@@ -53,3 +56,6 @@ h3,p{
 .input-field label {
      color: #F400B1;
    }
+#input-mail{
+   color: #F400B1;
+}
