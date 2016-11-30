@@ -1,5 +1,6 @@
-window.localStorage.getItem('name-user', input_name);
-window.localStorage.getItem('lastname-user', input_lastname); 
+
+localStorage.getItem('name-user', input_name);
+localStorage.getItem('lastname-user', input_lastname); 
 
 
 window.localStorage.getItem('email-user', input-email);
@@ -9,3 +10,4 @@ $(document).ready(function(){
 		$('#input_lastname').html(localStorage.getItem('lastname-user'));
 		$('#input-email').html(localStorage.getItem('email-user'));
 	}
+
