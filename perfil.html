@@ -5,23 +5,49 @@
 	<title>Perfil</title>
 	<link rel="stylesheet" type="text/css" href="css/materialize.css">
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/perfil.css">
 </head>
 <body>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12" style="height: 500px; width: 500px;">
-    			<div id="geolocation" style='height: 400px; width: 400px;'></div>
-    		</div>
-    	</div>
-	</div>
+  <div class="row">
+    <img src="img/lyft_coupons.png" class="center-align mustage ">
+    <ul id="slide-out" class="side-nav">
+      <li><div class="userView">
+        <div class="background">
+          <img src="img/f1-N-yONnxbw068Nf4xE-N0Og.jpeg" class="bgperfil">
+        </div>
+        <a href="#!user"><img class="circle" src="img/driver_Seat.jpg"></a>
+        <a href="#!name"><span class="white-text name">Nombre</span></a>
+        <a href="#!email"><span class="white-text email">tuemail@gmail.com</span></a>
+      </div></li>
 
-	<script src="https://maps.google.com/maps/api/js?key=AIzaSyDqeZvP9lruBz33v8YFxdAITbjencl7N84"></script>
-	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-	<script type="text/javascript" src="js/materialize.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
+      <li><i class="material-icons perfilicon">gps_fixed</i><a href="#!" style="display: -webkit-inline-box">Home</a></li>
+      <li><div class="divider"></div></li>
+      <li><i class="material-icons perfilicon">card_giftcard</i><a href="#!" style="display: -webkit-inline-box">Gana viajes gratis</a>
+       <li><div class="divider"></div></li>
+      <li><i class="material-icons perfilicon">history</i><a href="#!" style="display: -webkit-inline-box">Historial de viajes</a></li>
+       <li><div class="divider"></div></li>
+      <li><i class="material-icons perfilicon">credit_card</i><a href="#!" style="display: -webkit-inline-box">Medios de Pago</a></li>
+      <li><div class="divider"></div></li>
+      <li><i class="material-icons perfilicon"><i class="material-icons">lightbulb_outline</i></i><a href="#!" style="display: -webkit-inline-box">Ayuda</a></li>
+      <li><div class="divider"></div></li>
+      <li><i class="material-icons perfilicon">settings</i><a href="#!" style="display: -webkit-inline-box">Configuracion</a></li>
+      <li><div class="divider"></div></li>
+      <li><i class="material-icons perfilicon">directions_car</i><a href="#!" style="display: -webkit-inline-box">Gana dinero Conduciendo</a></li>
+    </ul>
+    <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons burger">menu</i></a>
 
-	<script>
+
+
+<div class="col-md-12" style="height: 100vh; width: 100vw;">
+  <div id="geolocation" style='height: 100vh; width: 100vw;'></div>
+</div>
+</div>
+<script src="https://maps.google.com/maps/api/js?key=AIzaSyDqeZvP9lruBz33v8YFxdAITbjencl7N84"></script>
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+<script>
       // Note: This example requires that you consent to location sharing when
       // prompted by your browser. If you see the error "The Geolocation service
       // failed.", it means you probably did not give permission for the browser to
@@ -32,7 +58,6 @@
           zoom: 6
         });
         var infoWindow = new google.maps.InfoWindow({map: map});
-
         // Try HTML5 geolocation.
         if (navigator.geolocation) {
           navigator.geolocation.getCurrentPosition(function(position) {
@@ -54,11 +79,11 @@
       function handleLocationError(browserHasGeolocation, infoWindow, pos) {
         infoWindow.setPosition(pos);
         infoWindow.setContent(browserHasGeolocation ?
-                              'Error: The Geolocation service failed.' :
-                              'Error: Your browser doesn\'t support geolocation.');
+          'Error: The Geolocation service failed.' :
+          'Error: Your browser doesn\'t support geolocation.');
       }
-
       initMap();
+
     </script>
-</body>
-</html>
+  </body>
+  </html>

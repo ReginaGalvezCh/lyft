@@ -1,6 +1,7 @@
 html, body{height:100%;}
 .bgimage{
   background-image: url(../img/3041173-poster-p-1-lyft-replacing-its-iconic-mustache-with-a-smaller.jpg);
+
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -16,14 +17,6 @@ html, body{height:100%;}
   left: 50%;
   margin-top:10%;
   width: 30%;
-}
-
-#chile{
-background-image: url(../img/cl.png);
-background-repeat: no-repeat;
-height: 10%;
-margin-top: 5%;
- 
 }
 .flag{
   margin-bottom: 60%;
@@ -59,3 +52,7 @@ h3,p{
 #input-mail{
    color: #F400B1;
 }
+
+
+
+
